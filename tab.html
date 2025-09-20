@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <div class="overlay">
+    <div class="top-bar">
+      <div class="time" id="time"></div>
+      <div class="date" id="date"></div>
+    </div>
+
+    <div class="center">
+      <div class="quote-box" id="quote-box">
+        <p class="quote" id="quote">Loading quote...</p>
+        <p class="author" id="author"></p>
+        <button class="next-quote" id="next-quote">➜</button>
+      </div>
+
+      <div id="search-wrap" class="search-wrap">
+        <input type="text" id="search-input" class="search-input" placeholder="Search Google or type URL...">
+        <div class="suggestions" id="suggestions"></div>
+      </div>
+
+      <div id="top-sites" class="top-sites"></div>
+    </div>
+
+    <div class="footer">Made with ❤️ by Sina and AI</div>
+    <div id="streak"></div>
+  </div>
+
+  <script src="tab.js"></script>
+</body>
+</html>

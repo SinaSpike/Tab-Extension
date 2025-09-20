@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tab",
+  "version": "1.0",
+  "description": "A modern, animated new tab with quotes, shortcuts, and search",
+  "permissions": [
+    "topSites",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.quotable.io/*",
+    "https://suggestqueries.google.com/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  }
+}
