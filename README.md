@@ -14,7 +14,8 @@ Tab – Your Modern, Interactive New Tab
 
 🎨 Preview
 
-<img width="1920" height="928" alt="image" src="https://github.com/user-attachments/assets/02231dce-2b45-484d-a723-906625f92c73" />
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/5f7e11d7-0329-4bcb-a96c-636c1945673e" />
+
 
 📦 Installation
 Load Unpacked (Development / GitHub):
